@@ -3,11 +3,8 @@
     height: 100%;
     color: white;
     border-bottom: 2.5px solid transparent;
-    padding: 0.3rem;
-    /* background-color: blue; */
+    padding: 0.3rem 0.5rem;
     box-sizing: border-box;
-    /* display: flex;
-    align-items: center; */
 }
 
 .ItemBox:hover{

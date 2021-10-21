@@ -13,13 +13,13 @@
     height: 100%;
     width: 30vw;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
 .Center{
     color: white;
     padding: 0.3rem 0.8rem;
+    padding-right: 15rem;
     font-size:smaller;
 }
 

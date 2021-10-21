@@ -5,6 +5,7 @@ import Taskbar from './component/TaskBar/Taskbar'
 import NarrowMenu from './component/SideMenu/NarrowMenu/NarrowMenu'
 import BroadMenu from './component/SideMenu/BroadMenu/BroadMenu'
 import FileMenu from './component/Filemenu/Filemenu'
+import Footer from './component/Footer/Footer'
 
 const app = () => {
   return (
@@ -20,6 +21,7 @@ const app = () => {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 }
