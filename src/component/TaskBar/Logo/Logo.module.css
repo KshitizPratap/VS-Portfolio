@@ -1,0 +1,11 @@
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo img{
+    height:1.5rem;
+    padding: 0 0.2rem;
+}
+.Logo img:hover{
+    cursor: pointer;
+}

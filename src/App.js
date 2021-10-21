@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import classes from './App.module.css';
+import Taskbar from './component/TaskBar/Taskbar'
+import NarrowMenu from './component/SideMenu/NarrowMenu/NarrowMenu'
+import BroadMenu from './component/SideMenu/BroadMenu/BroadMenu'
+import FileMenu from './component/Filemenu/Filemenu'
+
+const app = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.container}>
+      <Taskbar />
+      <div className={classes.Sidemenu}>
+        <NarrowMenu />
+        <BroadMenu />
+
+        <div>
+          <FileMenu />
+          <p>Body</p>
+        </div>
+
+      </div>
     </div>
   );
 }
 
-export default App;
+export default app;

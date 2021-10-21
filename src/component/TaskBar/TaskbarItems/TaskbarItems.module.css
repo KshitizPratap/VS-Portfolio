@@ -1,0 +1,17 @@
+.ItemBox{
+    font-size:smaller;
+    height: 100%;
+    color: white;
+    border-bottom: 2.5px solid transparent;
+    padding: 0.3rem;
+    /* background-color: blue; */
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: center; */
+}
+
+.ItemBox:hover{
+    background-color: rgb(56, 58, 59);
+    border-bottom: 2.5px solid white;
+    cursor: pointer;
+}

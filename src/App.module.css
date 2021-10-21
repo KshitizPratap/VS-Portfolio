@@ -1,0 +1,8 @@
+.Container{
+    height: 100%;
+}
+.Sidemenu{
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+}
