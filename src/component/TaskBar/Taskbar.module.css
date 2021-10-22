@@ -18,10 +18,36 @@
 
 .Center{
     color: white;
-    padding: 0.3rem 0.8rem;
-    padding-right: 15rem;
+    width: 30vw;
+    min-width: 275px;
+    padding: 0.3rem 0;
+    box-sizing: border-box;
     font-size:smaller;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
 }
+.CenterLogo{
+    display: none;
+}
+
+@media(max-width:850px){
+    .Taskbar{
+        justify-content: space-between;
+    }
+    .Items{
+        width: 10vw;
+        display: none;
+    }
+    .Center{
+        width: 50vw;
+    }
+    .CenterLogo{
+        display: flex;
+    }
+}
+
+
 
 .button{
     display: flex;

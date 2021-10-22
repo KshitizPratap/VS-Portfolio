@@ -1,22 +1,46 @@
 import React from "react";
 
 import classes from './BroadMenu.module.css'
-import FileMenuItem from '../../Filemenu/FilemenuItems/FilemenuItems'
+import BroadMenuItem from '../BroadMenu/BroadMenuItems/BroadMenuItems'
 import Home from '../../../assets/img/html.jpg'
 import About from '../../../assets/img/react.jpg'
 import Project from '../../../assets/img/css.png'
 import Contact from '../../../assets/img/js.png'
 
-const broadMenu = () => (
+const broadMenu = (props) => (
     <div className={classes.BroadMenuContainer}>
         <p className={classes.Extra}>EXPLORER</p>
 
         <div className={classes.ItemContainer}>
             <span className={classes.Portfolio}>PORTFOLIO</span>
-            <div className={classes.Item}><FileMenuItem item = 'Home.html' address = {Home}/></div>
-            <div className={classes.Item}><FileMenuItem item = 'About.css' address = {About}/></div>
-            <div className={classes.Item}><FileMenuItem item = 'Project.js' address = {Project}/></div>
-            <div className={classes.Item}><FileMenuItem item = 'Contact.jsx' address = {Contact}/></div>
+            <div className={classes.Item}>
+                <BroadMenuItem 
+                item = 'Home.html' 
+                address = {Home}
+                clicked = {() => props.clicked(0)}
+                active = {props.showState[0]}/>
+            </div>
+            <div className={classes.Item}>
+                <BroadMenuItem 
+                item = 'About.jsx' 
+                address = {About}
+                clicked = {() => props.clicked(1)}
+                active = {props.showState[1]}/>
+            </div>
+            <div className={classes.Item}>
+                <BroadMenuItem 
+                item = 'Project.css' 
+                address = {Project}
+                clicked = {() => props.clicked(2)}
+                active = {props.showState[2]}/>
+            </div>
+            <div className={classes.Item}>
+                <BroadMenuItem 
+                item = 'Contact.js' 
+                address = {Contact}
+                clicked = {() => props.clicked(3)}
+                active = {props.showState[3]}/>
+                </div>
         </div>
     </div>
 )

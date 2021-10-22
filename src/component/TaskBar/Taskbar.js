@@ -16,8 +16,10 @@ const taskbar = () => {
                 <TaskbarItems item = 'Run'/>
                 <TaskbarItems item = 'Terminal'/>
                 <TaskbarItems item = 'Help'/>
+                
             </div>
             <div className = {classes.Center}>
+                <div className = {classes.CenterLogo}><Logo /></div>
                 Kshitiz Pratap Singh - Visual Studio Code
             </div>
             <div className = {classes.button}>

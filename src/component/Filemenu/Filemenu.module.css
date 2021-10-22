@@ -7,3 +7,10 @@
     flex-direction: row;
     background-color: rgb(43, 46, 46);
 }
+
+
+@media(max-width:850px){
+    .FilemenuContainer{
+        width: 93vw;
+    }
+}

@@ -1,6 +1,7 @@
 .BroadMenuContainer{
     width: 15vw;
-    height: 95vh;
+    height: 93vh;
+    border-top: 2px solid rgb(63, 66, 66);
     background-color: rgb(43, 46, 46);
 }
 .Extra{
@@ -14,12 +15,15 @@
 }
 .Portfolio{
     font-weight: bold;
-   margin: 1rem 0 0 1.5rem;
+    padding-bottom: 8px;
+   margin: 1rem 0 0 1rem;
 }
 .Item{
     height: 2rem;
-    border-top: 3px solid transparent;
 }
-.Item:hover{
-    border: 3px solid transparent;
+
+@media(max-width : 850px){
+    .BroadMenuContainer{
+        display: none;
+    }
 }
