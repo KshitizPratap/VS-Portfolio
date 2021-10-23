@@ -8,10 +8,15 @@ import Project from './Project/Project'
 const mainBody = (props) => {
     return(
         <div>
-            <Home show = {props.showState[0]}/>
-            <About show = {props.showState[1]}/>
-            <Project show = {props.showState[2]}/>
-            <Contact show = {props.showState[3]}/>
+            <Home 
+                show = {props.showState[0]}
+                clicked = {(event) => props.clicked(event)}/>
+            <About 
+                show = {props.showState[1]}/>
+            <Project 
+                show = {props.showState[2]}/>
+            <Contact 
+                show = {props.showState[3]}/>
         </div>
     );
 }

@@ -27,7 +27,9 @@ class  App extends Component{
       <div className={classes.container}>
         <Taskbar />
         <div className={classes.Sidemenu}>
-          <NarrowMenu />
+          <NarrowMenu 
+            showState = {this.state.showState}
+            clicked = {(elementNum) => this.activeHandler(elementNum)}/>
           <BroadMenu 
             showState = {this.state.showState}
             clicked = {(elementNum) => this.activeHandler(elementNum)}/>
@@ -37,7 +39,9 @@ class  App extends Component{
               showState = {this.state.showState}
               clicked = {(elementNum) => this.activeHandler(elementNum)}/>
 
-            <MainBody showState = {this.state.showState}/>
+            <MainBody 
+              showState = {this.state.showState}
+              clicked = {(event) => this.activeHandler(event)}/>
           </div>
   
         </div>

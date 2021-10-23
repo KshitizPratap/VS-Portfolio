@@ -2,10 +2,10 @@ import React from "react";
 
 import classes from './BroadMenu.module.css'
 import BroadMenuItem from '../BroadMenu/BroadMenuItems/BroadMenuItems'
-import Home from '../../../assets/img/html.jpg'
-import About from '../../../assets/img/react.jpg'
-import Project from '../../../assets/img/css.png'
-import Contact from '../../../assets/img/js.png'
+import Home from '../../../assets/Icons/html.jpg'
+import About from '../../../assets/Icons/react.jpg'
+import Project from '../../../assets/Icons/css.png'
+import Contact from '../../../assets/Icons/js.png'
 
 const broadMenu = (props) => (
     <div className={classes.BroadMenuContainer}>

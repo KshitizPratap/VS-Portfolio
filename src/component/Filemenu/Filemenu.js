@@ -2,10 +2,10 @@ import React from "react";
 import classes from './Filemenu.module.css';
 
 import FileMenuItem from './FilemenuItems/FilemenuItems'
-import Home from '../../assets/img/html.jpg'
-import About from '../../assets/img/react.jpg'
-import Project from '../../assets/img/css.png'
-import Contact from '../../assets/img/js.png'
+import Home from '../../assets/Icons/html.jpg'
+import About from '../../assets/Icons/react.jpg'
+import Project from '../../assets/Icons/css.png'
+import Contact from '../../assets/Icons/js.png'
 
 const filemenu = (props) => (
     
