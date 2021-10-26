@@ -11,7 +11,6 @@ const taskbar = () => {
                 <Logo />
                 <TaskbarItems item = 'File'/>
                 <TaskbarItems item = 'Edit'/>
-                <TaskbarItems item = 'Selection'/>
                 <TaskbarItems item = 'View'/>
                 <TaskbarItems item = 'Run'/>
                 <TaskbarItems item = 'Terminal'/>

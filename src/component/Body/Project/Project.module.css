@@ -1,0 +1,11 @@
+.ProjectContainer h1{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 3rem 3rem 2rem 3rem;
+    letter-spacing: -1px;
+
+}
+.Cards{
+    display: flex;
+
+}
