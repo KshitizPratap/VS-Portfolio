@@ -1,5 +1,6 @@
 .Taskbar{
     height: 4vh;
+    width: 98.5vw;
     min-height: 2rem;
     padding: 0 0.5rem;
     display: flex;
@@ -7,15 +8,20 @@
     align-items: center;
     border-bottom: 2px solid rgb(63, 66, 66);
     background-color: rgb(43, 46, 46);
-    z-index: 50;
+    position: fixed;
+    z-index: 20;
+}
+
+@media(max-width : 850px){
+    .Taskbar{
+        width: 98.5vw;
+    }
 }
 
 .Items{
     height: 100%;
     width: 30vw;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .Center{

@@ -1,7 +1,9 @@
 .BroadMenuContainer{
     width: 15vw;
     height: 93vh;
+    margin: 4.7vh 0 0 4.2vw;
     background-color: rgb(43, 46, 46);
+    position: fixed;
 }
 .Extra{
     color: white;

@@ -1,5 +1,6 @@
 import React from "react";
 
+import classes from './MainBody.module.css'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import Home from './Home/Home'
@@ -7,7 +8,7 @@ import Project from './Project/Project'
 
 const mainBody = (props) => {
     return(
-        <div>
+        <div className = {classes.MainBodyContainer}>
             <Home 
                 show = {props.showState[0]}
                 clicked = {(event) => props.clicked(event)}/>

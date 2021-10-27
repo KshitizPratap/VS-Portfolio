@@ -24,13 +24,13 @@ class  App extends Component{
 
   render(){
     return (
-      <div className={classes.container}>
+      <div className={classes.Container}>
         <Taskbar />
         <div className={classes.Sidemenu}>
           <NarrowMenu 
             showState = {this.state.showState}
             clicked = {(elementNum) => this.activeHandler(elementNum)}/>
-          <BroadMenu 
+           <BroadMenu 
             showState = {this.state.showState}
             clicked = {(elementNum) => this.activeHandler(elementNum)}/>
   
@@ -42,9 +42,9 @@ class  App extends Component{
             <MainBody 
               showState = {this.state.showState}
               clicked = {(event) => this.activeHandler(event)}/>
-          </div>
-  
+          </div> 
         </div>
+
         <Footer />
       </div>
     );

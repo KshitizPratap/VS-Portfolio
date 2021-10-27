@@ -1,0 +1,8 @@
+.ContactContainer{
+    margin: 6rem 3rem;
+}
+
+.ContactContainer h2{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}

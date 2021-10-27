@@ -1,0 +1,39 @@
+.Container{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: -1px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.Container li{
+    margin-top: 0.5rem;
+}
+
+.Counting{
+    color: rgb(150, 148, 148);
+}
+
+.Main{
+    margin-left: 1.5rem;
+    cursor: pointer;
+    color: hsl(9, 96%, 71%);
+}
+
+.Handles{
+    margin-left: 3.5rem;
+    cursor: pointer;
+}
+
+.Container a{
+    color: hsl(9, 96%, 71%);
+    margin-left: 1rem;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+.Container a:hover{
+    text-decoration:underline;
+}

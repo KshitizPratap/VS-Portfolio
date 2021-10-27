@@ -6,15 +6,15 @@ import VSCodeImg from '../../../assets/Cards/VSCode.jpg'
 import SortingVisualizerImg from '../../../assets/Cards/SortingVisualizer.png'
 
 const project = (props) => {
-    const card1 = ['react', 'HTML']
-    const card2 = ['react', 'HTML']
+    const card1 = ['react', 'CSS', 'HTML']
+    const card2 = ['react', 'CSS', 'HTML']
 
     let project = null;
     if(props.show)
     {
         project = (
             <div className = {classes.ProjectContainer}>
-                <h1>Here are my projects</h1>
+                <h2>Here are my projects</h2>
                 <div className = {classes.Cards}>
                     <ProjectItem 
                         heading = "VSCode Portfolio"

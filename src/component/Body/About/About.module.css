@@ -1,0 +1,56 @@
+.AboutContainer{
+    margin: 6rem 3rem 0 3rem;
+}
+
+.AboutContainer h2{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.AboutContainer img{
+    height: 12rem;
+    border-radius: 12rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.AboutContainer img:hover{
+    height: 12.5rem;
+    border-radius: 12.5rem;
+    box-shadow: 1px 1px 5px hsl(9, 96%, 71%);
+}
+
+.ImageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+}
+
+.Content{
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    margin: 1.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Content p{
+    margin: 1rem 0 0 0;
+    width: 50vw;
+}
+
+.Content p a{
+    color : hsl(9, 96%, 71%);
+    cursor : pointer;
+    text-decoration: none;
+}
+.Content p a:hover{
+    text-decoration: underline;
+}
+
+.Content p span{
+    color : hsl(9, 96%, 71%);
+    cursor : pointer;
+}

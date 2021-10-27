@@ -1,8 +1,8 @@
 .Card{
     height: 23rem;
-    width: 16.5rem;
+    width: 15.5rem;
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(19, 17, 17);
     border-radius: 10px;
     margin: 1rem 3rem;
     position: relative;

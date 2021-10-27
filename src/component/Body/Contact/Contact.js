@@ -1,12 +1,15 @@
 import React from "react"
+import SocialHandles from "./SocialHandles/SocialHandlers";
+import classes from './Contact.module.css'
 
 const contact = (props) => {
     let contact = null;
     if(props.show)
     {
         contact = (
-            <div>
-                <h1 style = {{color : 'white'}}>Contact page</h1>
+            <div className = {classes.ContactContainer}>
+                <h2>My Social Handles</h2>
+                <SocialHandles />
             </div>
         )
     }

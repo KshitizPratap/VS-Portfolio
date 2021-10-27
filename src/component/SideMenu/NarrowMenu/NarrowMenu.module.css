@@ -2,6 +2,7 @@
 {
     width: 4vw;
     height: 91vh;
+    margin-top: 4.7vh;
     padding-top: 0.5rem;
     color: rgb(119, 124, 124);
     background-color: rgb(52, 54, 54);
@@ -11,6 +12,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .wrapper{
