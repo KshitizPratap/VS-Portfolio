@@ -12,11 +12,11 @@ const socialHandles = () => {
             <li>
                 <span className = {classes.Counting}>2</span>
                 <span className = {classes.Handles}>website:</span>
-                <a href = "/">Kshitiz_VSPortfolio.me</a></li>
+                <a href = "https://kshitizpratap.github.io/VS-Portfolio/">Kshitiz_VSPortfolio.me</a></li>
             <li>
                 <span className = {classes.Counting}>3</span>
                 <span className = {classes.Handles}>email:</span>
-                <a href = "/">Kshitiz100mit@gmail.com</a></li>
+                <a href = "mailto:kshitiz100mit@gmail.com" target ="_blank">Kshitiz100mit@gmail.com</a></li>
             <li>
                 <span className = {classes.Counting}>4</span>
                 <span className = {classes.Handles}>github:</span>

@@ -11,15 +11,22 @@ import MainBody from './component/Body/MainBody'
 class  App extends Component{
 
   state = {
-    showState : [true, false, false, false]
+    showState : [false, false, false, false, false]
+  }
+
+  componentDidMount(){
+    let arr = [false, false, false, false, false]
+    arr[localStorage.getItem("index")] = true;
+
+    this.setState({showState : arr});
   }
 
   activeHandler = (index) => {
-    let arr = [false, false, false, false]
+    let arr = [false, false, false, false, false]
     arr[index] = true;
 
-    console.log(index);
     this.setState({showState : arr});
+    localStorage.setItem("index", index)
   }
 
   render(){

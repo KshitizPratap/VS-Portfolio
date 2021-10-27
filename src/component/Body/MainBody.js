@@ -5,6 +5,7 @@ import About from './About/About'
 import Contact from './Contact/Contact'
 import Home from './Home/Home'
 import Project from './Project/Project'
+import Github from './Github/Github'
 
 const mainBody = (props) => {
     return(
@@ -18,6 +19,8 @@ const mainBody = (props) => {
                 show = {props.showState[2]}/>
             <Contact 
                 show = {props.showState[3]}/>
+            <Github 
+                show = {props.showState[4]}/>
         </div>
     );
 }

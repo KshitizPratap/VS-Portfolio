@@ -13,7 +13,6 @@ const projectItem = (props) => {
             })}
         </div>
     )
-    console.log(tech)
     return(
     <div className = {classes.Card}>
         <div>

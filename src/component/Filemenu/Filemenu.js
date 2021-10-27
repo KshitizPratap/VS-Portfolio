@@ -6,6 +6,7 @@ import Home from '../../assets/Icons/html.jpg'
 import About from '../../assets/Icons/react.jpg'
 import Project from '../../assets/Icons/css.png'
 import Contact from '../../assets/Icons/js.png'
+import Github from '../../assets/Icons/github.png'
 
 const filemenu = (props) => (
     
@@ -33,6 +34,12 @@ const filemenu = (props) => (
             address = {Contact}
             clicked = {() => props.clicked(3)}
             active = {props.showState[3]}/>
+
+        <FileMenuItem 
+            item = 'Github.md' 
+            address = {Github}
+            clicked = {() => props.clicked(4)}
+            active = {props.showState[4]}/>
     </div>
 );
 
