@@ -16,8 +16,10 @@ class  App extends Component{
 
   componentDidMount(){
     let arr = [false, false, false, false, false]
-    arr[localStorage.getItem("index")] = true;
-
+    if(sessionStorage.getItem("index") != null)
+      arr[sessionStorage.getItem("index")] = true;
+    else
+      arr = [true, false, false, false, false]
     this.setState({showState : arr});
   }
 
@@ -26,7 +28,7 @@ class  App extends Component{
     arr[index] = true;
 
     this.setState({showState : arr});
-    localStorage.setItem("index", index)
+    sessionStorage.setItem("index", index)
   }
 
   render(){
