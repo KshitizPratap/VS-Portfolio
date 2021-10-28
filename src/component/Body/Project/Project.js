@@ -21,7 +21,7 @@ const project = (props) => {
                         source = {VSCodeImg}
                         tags = {card1}
                         linkSource = "https://github.com/KshitizPratap/VS-Portfolio"
-                        linkDemo = "/">
+                        linkDemo = "https://kshitizpratap.github.io/VS-Portfolio/">
                         Developer-centric portfolio based on the VSCode.
                     </ProjectItem>
                     <ProjectItem 
