@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/VS-Portfolio/static/css/main.25d85b62.chunk.css",
-    "main.js": "/VS-Portfolio/static/js/main.83335299.chunk.js",
-    "main.js.map": "/VS-Portfolio/static/js/main.83335299.chunk.js.map",
+    "main.css": "/VS-Portfolio/static/css/main.ddb666c5.chunk.css",
+    "main.js": "/VS-Portfolio/static/js/main.457dfc63.chunk.js",
+    "main.js.map": "/VS-Portfolio/static/js/main.457dfc63.chunk.js.map",
     "runtime-main.js": "/VS-Portfolio/static/js/runtime-main.3b88ba22.js",
     "runtime-main.js.map": "/VS-Portfolio/static/js/runtime-main.3b88ba22.js.map",
     "static/js/2.21c1b4ce.chunk.js": "/VS-Portfolio/static/js/2.21c1b4ce.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.86bc5e21.chunk.js": "/VS-Portfolio/static/js/3.86bc5e21.chunk.js",
     "static/js/3.86bc5e21.chunk.js.map": "/VS-Portfolio/static/js/3.86bc5e21.chunk.js.map",
     "index.html": "/VS-Portfolio/index.html",
-    "static/css/main.25d85b62.chunk.css.map": "/VS-Portfolio/static/css/main.25d85b62.chunk.css.map",
+    "static/css/main.ddb666c5.chunk.css.map": "/VS-Portfolio/static/css/main.ddb666c5.chunk.css.map",
     "static/js/2.21c1b4ce.chunk.js.LICENSE.txt": "/VS-Portfolio/static/js/2.21c1b4ce.chunk.js.LICENSE.txt",
     "static/media/MyPic.b28dcdc5.jpg": "/VS-Portfolio/static/media/MyPic.b28dcdc5.jpg",
     "static/media/SortingVisualizer.0790d44f.png": "/VS-Portfolio/static/media/SortingVisualizer.0790d44f.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.3b88ba22.js",
     "static/js/2.21c1b4ce.chunk.js",
-    "static/css/main.25d85b62.chunk.css",
-    "static/js/main.83335299.chunk.js"
+    "static/css/main.ddb666c5.chunk.css",
+    "static/js/main.457dfc63.chunk.js"
   ]
 }
