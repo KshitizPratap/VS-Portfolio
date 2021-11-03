@@ -29,7 +29,7 @@ const project = (props) => {
                         source = {SortingVisualizerImg}
                         tags = {card2}
                         linkSource = "https://github.com/KshitizPratap/Sorting-Visualizer"
-                        linkDemo = "/">
+                        linkDemo = "https://github.com/KshitizPratap/Sorting-Visualizer">
                         Responsive web application for visualization of Sorting Algorithms.
                     </ProjectItem>
                 </div>

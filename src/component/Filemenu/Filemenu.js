@@ -35,11 +35,11 @@ const filemenu = (props) => (
             clicked = {() => props.clicked(3)}
             active = {props.showState[3]}/>
 
-        <FileMenuItem 
+        {/* <FileMenuItem 
             item = 'Github.md' 
             address = {Github}
             clicked = {() => props.clicked(4)}
-            active = {props.showState[4]}/>
+            active = {props.showState[4]}/> */}
     </div>
 );
 

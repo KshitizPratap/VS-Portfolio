@@ -10,7 +10,7 @@ import BellIcon from './FooterItems/BellIcon'
 const footer = () => (
     <div className = {classes.Footer}>
         <div className={classes.MainGroup}>
-            <div className={classes.Main}><SynchroIcon /><span>main</span></div>
+            <a className={classes.Main} href = "https://github.com/KshitizPratap" target = "_blank"><SynchroIcon /><span>main</span></a>
             <div className={classes.Main}><ErrorIcon/>0 <WarningIcon style={{marginLeft:'0.3rem'}}/>0</div>
         </div>
         <div className={classes.SideGroup}>

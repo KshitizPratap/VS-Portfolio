@@ -42,13 +42,13 @@ const broadMenu = (props) => (
                 clicked = {() => props.clicked(3)}
                 active = {props.showState[3]}/>
             </div>
-            <div className={classes.Item}>
+            {/* <div className={classes.Item}>
                 <BroadMenuItem 
                 item = 'Github.md' 
                 address = {Github}
                 clicked = {() => props.clicked(4)}
                 active = {props.showState[4]}/>
-            </div>
+            </div> */}
         </div>
     </div>
 )
