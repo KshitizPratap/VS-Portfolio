@@ -1,13 +1,15 @@
 import React from "react"
 import classes from './Project.module.css';
-
 import ProjectItem from './ProjectItem/ProjectItem'
+
 import VSCodeImg from '../../../assets/Cards/VSCode.jpg'
 import SortingVisualizerImg from '../../../assets/Cards/SortingVisualizer.png'
+import Newsfeedimg from "../../../assets/Cards/newsfeed.png"
 
 const project = (props) => {
-    const card1 = ['react', 'CSS', 'HTML']
-    const card2 = ['react', 'CSS', 'HTML']
+    const card1 = ['reactJS', 'CSS', 'HTML']
+    const card2 = ['reactJS', 'CSS', 'HTML']
+    const card3 = ['reactJS', 'axios', 'javascript', 'CSS']
 
     let project = null;
     if(props.show)
@@ -16,6 +18,14 @@ const project = (props) => {
             <div className = {classes.ProjectContainer}>
                 <h2>Here are my projects</h2>
                 <div className = {classes.Cards}>
+                <ProjectItem 
+                        heading = "Newsfeed App"
+                        source = {Newsfeedimg}
+                        tags = {card3}
+                        linkSource = "https://kshitizpratap.github.io/NewsFeed/"
+                        linkDemo = "https://github.com/KshitizPratap/NewsFeed">
+                        Newsfeed react based app using API with customized pagination.
+                    </ProjectItem>
                     <ProjectItem 
                         heading = "VSCode Portfolio"
                         source = {VSCodeImg}
@@ -32,6 +42,7 @@ const project = (props) => {
                         linkDemo = "https://github.com/KshitizPratap/Sorting-Visualizer">
                         Responsive web application for visualization of Sorting Algorithms.
                     </ProjectItem>
+                    
                 </div>
             </div>
         )

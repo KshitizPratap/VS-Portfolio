@@ -1,7 +1,10 @@
+.ProjectContainer{
+    margin-left: 1.6rem;
+}
 .ProjectContainer h2{
     color: white;
     font-family: 'JetBrains Mono', monospace;
-    margin: 6rem 0 2rem 3rem;
+    margin: 6rem 0 2rem 1.6rem;
 
 }
 .Cards{

@@ -1,15 +1,16 @@
 .Card{
     height: 23rem;
-    width: 15.5rem;
+    width: 16rem;
     cursor: pointer;
     background-color: rgb(19, 17, 17);
     border-radius: 10px;
-    margin: 1rem 3rem;
+    margin: 1rem 1.5rem;
     position: relative;
+    transition: all ease 0.4s;
 }
 
 .Card:hover{
-    box-shadow: 2px 2px 5px rgb(158, 157, 157);
+    box-shadow: -2px 2px 10px rgb(158, 157, 157);
 }
 
 .Card img{
@@ -36,10 +37,16 @@
 
 .TagContainer{
     margin: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .Links{
-    margin-top: 2rem;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
 }
 .Links a{
     border-bottom: 2px solid rgb(36, 255, 255);
@@ -54,4 +61,5 @@
 .Links a:hover{
     background-color: rgb(36, 255, 255);
     color: black;
+    font-weight: 500;
 }
