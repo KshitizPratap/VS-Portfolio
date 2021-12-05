@@ -22,8 +22,8 @@ const project = (props) => {
                         heading = "Newsfeed App"
                         source = {Newsfeedimg}
                         tags = {card3}
-                        linkSource = "https://kshitizpratap.github.io/NewsFeed/"
-                        linkDemo = "https://github.com/KshitizPratap/NewsFeed">
+                        linkSource = "https://github.com/KshitizPratap/NewsFeed"
+                        linkDemo = "https://kshitizpratap.github.io/NewsFeed/">
                         Newsfeed react based app using API with customized pagination.
                     </ProjectItem>
                     <ProjectItem 
