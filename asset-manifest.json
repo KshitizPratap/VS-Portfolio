@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VS-Portfolio/static/css/main.0273d024.chunk.css",
-    "main.js": "/VS-Portfolio/static/js/main.f6c3708c.chunk.js",
-    "main.js.map": "/VS-Portfolio/static/js/main.f6c3708c.chunk.js.map",
+    "main.js": "/VS-Portfolio/static/js/main.b3f2f9c0.chunk.js",
+    "main.js.map": "/VS-Portfolio/static/js/main.b3f2f9c0.chunk.js.map",
     "runtime-main.js": "/VS-Portfolio/static/js/runtime-main.3b88ba22.js",
     "runtime-main.js.map": "/VS-Portfolio/static/js/runtime-main.3b88ba22.js.map",
     "static/js/2.21c1b4ce.chunk.js": "/VS-Portfolio/static/js/2.21c1b4ce.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.3b88ba22.js",
     "static/js/2.21c1b4ce.chunk.js",
     "static/css/main.0273d024.chunk.css",
-    "static/js/main.f6c3708c.chunk.js"
+    "static/js/main.b3f2f9c0.chunk.js"
   ]
 }
