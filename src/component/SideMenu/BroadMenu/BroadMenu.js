@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import classes from './BroadMenu.module.css'
 import BroadMenuItem from '../BroadMenu/BroadMenuItems/BroadMenuItems'
@@ -6,7 +7,6 @@ import Home from '../../../assets/Icons/html.jpg'
 import About from '../../../assets/Icons/react.jpg'
 import Project from '../../../assets/Icons/css.png'
 import Contact from '../../../assets/Icons/js.png'
-import Github from '../../../assets/Icons/github.png'
 
 const broadMenu = (props) => (
     <div className={classes.BroadMenuContainer}>
@@ -14,6 +14,8 @@ const broadMenu = (props) => (
 
         <div className={classes.ItemContainer}>
             <span className={classes.Portfolio}>PORTFOLIO</span>
+
+            <Link to = "/Home">
             <div className={classes.Item}>
                 <BroadMenuItem 
                 item = 'Home.html' 
@@ -21,6 +23,10 @@ const broadMenu = (props) => (
                 clicked = {() => props.clicked(0)}
                 active = {props.showState[0]}/>
             </div>
+            </Link>
+            
+
+            <Link to = "/About">
             <div className={classes.Item}>
                 <BroadMenuItem 
                 item = 'About.jsx' 
@@ -28,6 +34,10 @@ const broadMenu = (props) => (
                 clicked = {() => props.clicked(1)}
                 active = {props.showState[1]}/>
             </div>
+            </Link>
+            
+            
+            <Link to = "/Project">
             <div className={classes.Item}>
                 <BroadMenuItem 
                 item = 'Project.css' 
@@ -35,6 +45,10 @@ const broadMenu = (props) => (
                 clicked = {() => props.clicked(2)}
                 active = {props.showState[2]}/>
             </div>
+            </Link>
+            
+
+            <Link to = "/Contact">
             <div className={classes.Item}>
                 <BroadMenuItem 
                 item = 'Contact.js' 
@@ -42,13 +56,8 @@ const broadMenu = (props) => (
                 clicked = {() => props.clicked(3)}
                 active = {props.showState[3]}/>
             </div>
-            {/* <div className={classes.Item}>
-                <BroadMenuItem 
-                item = 'Github.md' 
-                address = {Github}
-                clicked = {() => props.clicked(4)}
-                active = {props.showState[4]}/>
-            </div> */}
+            </Link>
+            
         </div>
     </div>
 )

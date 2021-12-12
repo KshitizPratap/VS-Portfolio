@@ -1,18 +1,14 @@
 .Container{
+    margin: 9.1vh 0 0 19vw;
     height: 89vh;
+    width: 81vw;
     color: black;
     background-color: white;
     display: flex;
     flex-flow: column;
     justify-content: center;
+    overflow: hidden;
 }
-
-/* @media(max-width:850px){
-    .Container{
-        height: 88vh;
-        width:
-    }
-} */
 
 .Container h1{
     font-size: 3rem;

@@ -7,7 +7,7 @@ import SortingVisualizerImg from '../../../assets/Cards/SortingVisualizer.png'
 import Newsfeedimg from "../../../assets/Cards/newsfeed.png"
 
 const project = (props) => {
-    const card1 = ['reactJS', 'CSS', 'HTML']
+    const card1 = ['reactJS', 'react-router', 'CSS', 'HTML']
     const card2 = ['reactJS', 'CSS', 'HTML']
     const card3 = ['reactJS', 'axios', 'javascript', 'CSS']
 

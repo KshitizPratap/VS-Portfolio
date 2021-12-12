@@ -1,7 +1,6 @@
 import React from "react"
 import classes from './Home.module.css';
 import Typewriter from "typewriter-effect";
-// import HomeBackground from '../../../assets/Backgrounds/homeBackground.jpg';
 
 const home = (props) => {
     let home = null;
@@ -9,7 +8,6 @@ const home = (props) => {
     {
         home = (
             <div className = {classes.Container}>
-                {/* <img src = {HomeBackground} /> */}
                 <h1>Kshitiz Pratap Singh</h1>
                 <div className = {classes.Typewriter}>
                     <Typewriter 
@@ -17,7 +15,7 @@ const home = (props) => {
                             typewriter.typeString("Front End Web Developer")
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString("Bahut accha developer hu bhai!!")
+                                .typeString("Software Enthusiast")
                                 .pauseFor(1000)
                                 .deleteAll()
                                 .typeString("Front End Web Developer")
@@ -35,9 +33,8 @@ const home = (props) => {
             </div>
         )
     }
-    return(
-        home
-    );
+    return home
 }
 
 export default home;
+

@@ -1,45 +1,47 @@
 import React from "react";
 import classes from './Filemenu.module.css';
+import { Link } from "react-router-dom";
 
 import FileMenuItem from './FilemenuItems/FilemenuItems'
 import Home from '../../assets/Icons/html.jpg'
 import About from '../../assets/Icons/react.jpg'
 import Project from '../../assets/Icons/css.png'
 import Contact from '../../assets/Icons/js.png'
-import Github from '../../assets/Icons/github.png'
 
 const filemenu = (props) => (
     
     <div className = {classes.FilemenuContainer}>
-        <FileMenuItem 
+        <Link to = "/Home">
+            <FileMenuItem 
             item = 'Home.html' 
             address = {Home}
             clicked = {() => props.clicked(0)}
             active = {props.showState[0]}/>
+        </Link>
 
-        <FileMenuItem 
-            item = 'About.jsx' 
-            address = {About}
-            clicked = {() => props.clicked(1)}
-            active = {props.showState[1]}/>
+        <Link to = "/About">
+            <FileMenuItem 
+                item = 'About.jsx' 
+                address = {About}
+                clicked = {() => props.clicked(1)}
+                active = {props.showState[1]}/>
+        </Link>
 
-        <FileMenuItem 
-            item = 'Project.css' 
-            address = {Project}
-            clicked = {() => props.clicked(2)}
-            active = {props.showState[2]}/>
+        <Link to = "/Project">
+            <FileMenuItem 
+                item = 'Project.css' 
+                address = {Project}
+                clicked = {() => props.clicked(2)}
+                active = {props.showState[2]}/>
+        </Link>
 
-        <FileMenuItem 
-            item = 'Contact.js' 
-            address = {Contact}
-            clicked = {() => props.clicked(3)}
-            active = {props.showState[3]}/>
-
-        {/* <FileMenuItem 
-            item = 'Github.md' 
-            address = {Github}
-            clicked = {() => props.clicked(4)}
-            active = {props.showState[4]}/> */}
+        <Link to = "/Contact">
+            <FileMenuItem 
+                item = 'Contact.js' 
+                address = {Contact}
+                clicked = {() => props.clicked(3)}
+                active = {props.showState[3]}/>
+        </Link>
     </div>
 );
 

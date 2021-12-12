@@ -1,11 +1,13 @@
 .ProjectContainer{
-    margin-left: 1.6rem;
+    padding: 2vh 0 0 4vw;
+    margin: 9.1vh 0 0 19vw;
+    height: 85vh;
+    width: 77vw;
+    overflow:hidden;
 }
 .ProjectContainer h2{
     color: white;
     font-family: 'JetBrains Mono', monospace;
-    margin: 6rem 0 2rem 1.6rem;
-
 }
 .Cards{
     display: flex;
