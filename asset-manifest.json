@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/VS-Portfolio/static/css/main.0273d024.chunk.css",
-    "main.js": "/VS-Portfolio/static/js/main.b3f2f9c0.chunk.js",
-    "main.js.map": "/VS-Portfolio/static/js/main.b3f2f9c0.chunk.js.map",
-    "runtime-main.js": "/VS-Portfolio/static/js/runtime-main.3b88ba22.js",
-    "runtime-main.js.map": "/VS-Portfolio/static/js/runtime-main.3b88ba22.js.map",
-    "static/js/2.21c1b4ce.chunk.js": "/VS-Portfolio/static/js/2.21c1b4ce.chunk.js",
-    "static/js/2.21c1b4ce.chunk.js.map": "/VS-Portfolio/static/js/2.21c1b4ce.chunk.js.map",
-    "static/js/3.86bc5e21.chunk.js": "/VS-Portfolio/static/js/3.86bc5e21.chunk.js",
-    "static/js/3.86bc5e21.chunk.js.map": "/VS-Portfolio/static/js/3.86bc5e21.chunk.js.map",
+    "main.css": "/VS-Portfolio/static/css/main.6134b241.chunk.css",
+    "main.js": "/VS-Portfolio/static/js/main.2267bcb2.chunk.js",
+    "main.js.map": "/VS-Portfolio/static/js/main.2267bcb2.chunk.js.map",
+    "runtime-main.js": "/VS-Portfolio/static/js/runtime-main.23b0c1a3.js",
+    "runtime-main.js.map": "/VS-Portfolio/static/js/runtime-main.23b0c1a3.js.map",
+    "static/js/2.82af63f3.chunk.js": "/VS-Portfolio/static/js/2.82af63f3.chunk.js",
+    "static/js/2.82af63f3.chunk.js.map": "/VS-Portfolio/static/js/2.82af63f3.chunk.js.map",
+    "static/js/3.862d0ab7.chunk.js": "/VS-Portfolio/static/js/3.862d0ab7.chunk.js",
+    "static/js/3.862d0ab7.chunk.js.map": "/VS-Portfolio/static/js/3.862d0ab7.chunk.js.map",
     "index.html": "/VS-Portfolio/index.html",
-    "static/css/main.0273d024.chunk.css.map": "/VS-Portfolio/static/css/main.0273d024.chunk.css.map",
-    "static/js/2.21c1b4ce.chunk.js.LICENSE.txt": "/VS-Portfolio/static/js/2.21c1b4ce.chunk.js.LICENSE.txt",
+    "static/css/main.6134b241.chunk.css.map": "/VS-Portfolio/static/css/main.6134b241.chunk.css.map",
+    "static/js/2.82af63f3.chunk.js.LICENSE.txt": "/VS-Portfolio/static/js/2.82af63f3.chunk.js.LICENSE.txt",
     "static/media/MyPic.b28dcdc5.jpg": "/VS-Portfolio/static/media/MyPic.b28dcdc5.jpg",
     "static/media/SortingVisualizer.0790d44f.png": "/VS-Portfolio/static/media/SortingVisualizer.0790d44f.png",
     "static/media/VSCode.1b863028.jpg": "/VS-Portfolio/static/media/VSCode.1b863028.jpg",
@@ -20,9 +20,9 @@
     "static/media/react.cd1da66c.jpg": "/VS-Portfolio/static/media/react.cd1da66c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b88ba22.js",
-    "static/js/2.21c1b4ce.chunk.js",
-    "static/css/main.0273d024.chunk.css",
-    "static/js/main.b3f2f9c0.chunk.js"
+    "static/js/runtime-main.23b0c1a3.js",
+    "static/js/2.82af63f3.chunk.js",
+    "static/css/main.6134b241.chunk.css",
+    "static/js/main.2267bcb2.chunk.js"
   ]
 }
