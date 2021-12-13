@@ -6,16 +6,13 @@ import VSCodeImg from '../../../assets/Cards/VSCode.jpg'
 import SortingVisualizerImg from '../../../assets/Cards/SortingVisualizer.png'
 import Newsfeedimg from "../../../assets/Cards/newsfeed.png"
 
-const project = (props) => {
+const project = () => {
     const card1 = ['reactJS', 'react-router', 'CSS', 'HTML']
     const card2 = ['reactJS', 'CSS', 'HTML']
     const card3 = ['reactJS', 'axios', 'javascript', 'CSS']
 
-    let project = null;
-    if(props.show)
-    {
-        project = (
-            <div className = {classes.ProjectContainer}>
+    return(
+        <div className = {classes.ProjectContainer}>
                 <h2>Here are my projects</h2>
                 <div className = {classes.Cards}>
                 <ProjectItem 
@@ -45,10 +42,6 @@ const project = (props) => {
                     
                 </div>
             </div>
-        )
-    }
-    return(
-        project
     );
 }
 

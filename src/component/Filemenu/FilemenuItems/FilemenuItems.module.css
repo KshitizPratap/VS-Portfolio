@@ -18,13 +18,19 @@
     cursor: pointer;
 }
 
+.FilemenuItem span:hover{
+    border-bottom: 2px solid white;
+    background-color: rgb(63, 66, 66);
+}
+
+.active{
+    border-bottom: 2px solid white;
+    background-color: rgb(63, 66, 66);
+}
+
 .FilemenuItem img{
     height: 50%;
     margin-right: 0.4rem;
     border-radius: 3px;
 }
 
-.FilemenuItem span:hover{
-    border-top: 2px solid white;
-    background-color: rgb(63, 66, 66);
-}

@@ -4,11 +4,8 @@ import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 
 const home = (props) => {
-    let home = null;
-    if(props.show)
-    {
-        home = (
-            <div className = {classes.Container}>
+    return(
+        <div className = {classes.Container}>
                 <h1>Kshitiz Pratap Singh</h1>
                 <div className = {classes.Typewriter}>
                     <Typewriter 
@@ -26,20 +23,17 @@ const home = (props) => {
                 <div className={classes.Button}>
                     <Link to = "/VS-Portfolio/Project">
                         <button 
-                            className={classes.Button1}
-                            onClick = {() => props.clicked(2)}>My Work</button>
+                            className={classes.Button1}>My Work</button>
                     </Link>
 
                     <Link to = "/VS-Portfolio/Contact">
                     <button 
-                        className={classes.Button2}
-                        onClick = {() => props.clicked(3)}>Contact me</button>
+                        className={classes.Button2} >Contact me</button>
                     </Link>
                 </div>
             </div>
-        )
-    }
-    return home
+
+    )
 }
 
 export default home;

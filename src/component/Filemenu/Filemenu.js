@@ -17,7 +17,7 @@ const filemenu = (props) => (
             item = 'Home.html' 
             address = {Home}
             clicked = {() => props.clicked(0)}
-            active = {props.showState[0]}/>
+            show = {props.showState[0]}/>
         </Link>
 
         <Link to = "/VS-Portfolio/About"
@@ -26,7 +26,7 @@ const filemenu = (props) => (
                 item = 'About.jsx' 
                 address = {About}
                 clicked = {() => props.clicked(1)}
-                active = {props.showState[1]}/>
+                show = {props.showState[1]}/>
         </Link>
 
         <Link to = "/VS-Portfolio/Project"
@@ -35,7 +35,7 @@ const filemenu = (props) => (
                 item = 'Project.css' 
                 address = {Project}
                 clicked = {() => props.clicked(2)}
-                active = {props.showState[2]}/>
+                show = {props.showState[2]}/>
         </Link>
 
         <Link to = "/VS-Portfolio/Contact"
@@ -44,7 +44,7 @@ const filemenu = (props) => (
                 item = 'Contact.js' 
                 address = {Contact}
                 clicked = {() => props.clicked(3)}
-                active = {props.showState[3]}/>
+                show = {props.showState[3]}/>
         </Link>
     </div>
 );

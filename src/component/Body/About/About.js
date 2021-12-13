@@ -2,12 +2,9 @@ import React from "react"
 import classes from './About.module.css'
 import MyPic from '../../../assets/MyPic.jpg'
 
-const about = (props) => {
-    let about = null;
-    if(props.show)
-    {
-        about = (
-            <div className = {classes.AboutContainer}>
+const about = () => {
+    return(
+        <div className = {classes.AboutContainer}>
                 <h2>About me</h2>
                 <div className = {classes.ImageDiv}><img src = {MyPic} alt = "Developer"/></div>
                 <div className = {classes.Content}>
@@ -17,10 +14,6 @@ const about = (props) => {
                     <br/><br/><span>I am always experimenting, always learning, and never bored.</span></p>
                 </div>
             </div>
-        )
-    }
-    return(
-        about
     );
 }
 
