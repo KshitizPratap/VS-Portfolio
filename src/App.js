@@ -27,8 +27,6 @@ function App(){
       arr = [true, false, false, false, false]
 
       setShowState(arr)
-
-    console.log(arr)
   }, [])
 
   const activeHandler = (index) => {
@@ -42,8 +40,11 @@ function App(){
     return (
       <Router>
         <div className={classes.Container}>
+
           <Taskbar />
+          
           <div className={classes.Sidemenu}>
+          
             <NarrowMenu 
               showState = {showState}
               clicked = {(elementNum) => activeHandler(elementNum)}/>
@@ -62,6 +63,7 @@ function App(){
                 <Route exact path='/VS-Portfolio/About' element={< About show = {showState[1]} />} />
                 <Route exact path='/VS-Portfolio/Project' element={< Project show = {showState[2]} />} />
               </Routes>
+
             </div> 
           </div>
 
