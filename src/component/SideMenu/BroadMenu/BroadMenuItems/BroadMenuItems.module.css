@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-.BroadmenuItems a{
+.BroadmenuItems span{
     height: 100%;
     width: auto;
     padding: 0 1.2rem;
@@ -22,7 +22,7 @@
     border-radius: 3px;
 }
 
-.BroadmenuItems a:hover{
+.BroadmenuItems span:hover{
     border-left: 3px solid white;
     background-color: rgb(63, 66, 66);
 }

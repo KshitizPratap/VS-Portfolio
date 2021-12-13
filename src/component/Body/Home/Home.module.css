@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .Container h1{

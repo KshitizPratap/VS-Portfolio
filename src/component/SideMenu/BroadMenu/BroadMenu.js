@@ -15,7 +15,7 @@ const broadMenu = (props) => (
         <div className={classes.ItemContainer}>
             <span className={classes.Portfolio}>PORTFOLIO</span>
 
-            <Link to = "/Home"
+            <Link to = "/VS-Portfolio"
                 style={{textDecoration : "none"}}>
             <div className={classes.Item}>
                 <BroadMenuItem 
@@ -27,7 +27,7 @@ const broadMenu = (props) => (
             </Link>
             
 
-            <Link to = "/About"
+            <Link to = "/VS-Portfolio/About"
                 style={{textDecoration : "none"}}>
             <div className={classes.Item}>
                 <BroadMenuItem 
@@ -39,7 +39,7 @@ const broadMenu = (props) => (
             </Link>
             
             
-            <Link to = "/Project"
+            <Link to = "/VS-Portfolio/Project"
                 style={{textDecoration : "none"}}>
             <div className={classes.Item}>
                 <BroadMenuItem 
@@ -51,7 +51,7 @@ const broadMenu = (props) => (
             </Link>
             
 
-            <Link to = "/Contact"
+            <Link to = "/VS-Portfolio/Contact"
                 style={{textDecoration : "none"}}>
             <div className={classes.Item}>
                 <BroadMenuItem 

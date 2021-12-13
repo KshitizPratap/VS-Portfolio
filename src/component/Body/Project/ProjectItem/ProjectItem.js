@@ -16,7 +16,7 @@ const projectItem = (props) => {
     return(
     <div className = {classes.Card}>
         <div>
-            <img src = {props.source} />
+            <img src = {props.source} alt = "Project"/>
         </div>
 
         <div>
@@ -29,11 +29,12 @@ const projectItem = (props) => {
         </div>
 
         <div className = {classes.Links}>
-            <a href = {props.linkSource} target="_blank">Source Code</a>
-            <a href = {props.linkDemo} target="_blank">Live Demo</a>
+            <a href = {props.linkSource} target="_blank" rel = "noreferrer">Source Code</a>
+            <a href = {props.linkDemo} target="_blank" rel = "noreferrer">Live Demo</a>
         </div>
     </div>
     )
 }
+
 
 export default projectItem;

@@ -28,6 +28,7 @@ function App(){
 
       setShowState(arr)
 
+    console.log(arr)
   }, [])
 
   const activeHandler = (index) => {
@@ -56,10 +57,10 @@ function App(){
                 clicked = {(elementNum) => activeHandler(elementNum)}/>
 
               <Routes>
-                <Route exact path='/Home' element={< Home show = {showState[0]} clicked = {(event) => activeHandler(event)}/>} />
-                <Route exact path='/Contact' element={< Contact show = {showState[3]} />} />
-                <Route exact path='/About' element={< About show = {showState[1]} />} />
-                <Route exact path='/Project' element={< Project show = {showState[2]} />} />
+                <Route exact path='/VS-Portfolio' element={< Home show = {showState[0]} clicked = {(event) => activeHandler(event)}/>} />
+                <Route exact path='/VS-Portfolio/Contact' element={< Contact show = {showState[3]} />} />
+                <Route exact path='/VS-Portfolio/About' element={< About show = {showState[1]} />} />
+                <Route exact path='/VS-Portfolio/Project' element={< Project show = {showState[2]} />} />
               </Routes>
             </div> 
           </div>
@@ -69,5 +70,6 @@ function App(){
       </Router>
     );
 }
+ 
 
 export default App;

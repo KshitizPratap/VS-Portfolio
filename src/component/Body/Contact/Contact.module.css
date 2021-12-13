@@ -3,7 +3,8 @@
     margin: 9.1vh 0 0 19vw;
     height: 85vh;
     width: 77vw;
-    overflow:hidden;}
+    overflow:auto;
+}
 
 .ContactContainer h2{
     color: white;

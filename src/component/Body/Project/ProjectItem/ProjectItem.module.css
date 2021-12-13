@@ -11,7 +11,7 @@
 }
 
 .Card:hover{
-    box-shadow: -2px 2px 10px rgb(158, 157, 157);
+    box-shadow: -2px 2px 10px rgba(151, 151, 151, 0.541);
 }
 
 .Card img{
@@ -60,7 +60,7 @@
     transition: background-color .5s ease-out;
 }
 .Links a:hover{
-    background-color: rgb(36, 255, 255);
+    background-color: rgba(36, 255, 255, 0.774);
     color: black;
     font-weight: 500;
 }

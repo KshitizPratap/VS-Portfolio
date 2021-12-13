@@ -10,15 +10,14 @@ const filemenuitems = (props) => {
     }
     return(
         <div className = {classes.FilemenuItem}>
-            <a 
+            <span 
                 className = {itemClass.join(' ')}
                 onClick = {props.clicked}>
                     <img src = {props.address} alt="item"/>
                         {props.item}
-            </a>
+            </span>
         </div>
     )
 }
-
 
 export default filemenuitems;
