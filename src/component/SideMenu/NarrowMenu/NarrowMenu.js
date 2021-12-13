@@ -13,27 +13,27 @@ const narrowMenu = (props) => {
     return(
     <div className={classes.NarrowMenuContainer}>
         <div className={classes.wrapper}>
-            <Link to = "/Home">
+            <Link to = "/Home" style={{color : "white"}}>
             <div 
                 onClick = {() => props.clicked(0)}
                 className = {[classes.Icon, props.showState[0] ? classes.active : null].join(' ')}><FilesIcon /></div>
             
             </Link>
             
-            <Link to = "/About">
+            <Link to = "/About" style={{color : "white"}}>
             <div 
                 onClick = {() => props.clicked(1)}
                 className = {[classes.Icon, props.showState[1] ? classes.active : null].join(' ')}><PencilIcon/></div>
             </Link>
             
-            <Link to = "/Project">
+            <Link to = "/Project" style={{color : "white"}}>
             <div 
                 onClick = {() => props.clicked(2)}
                 className = {[classes.Icon, props.showState[2] ? classes.active : null].join(' ')}><TagIcon /></div>
             </Link>
             
             
-            <Link to = "/Contact">
+            <Link to = "/Contact" style={{color : "white"}}>
             <div 
                 onClick = {() => props.clicked(3)}
                 className = {[classes.Icon, props.showState[3] ? classes.active : null].join(' ')}><MailIcon /></div>

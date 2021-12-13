@@ -11,7 +11,8 @@ import Contact from '../../assets/Icons/js.png'
 const filemenu = (props) => (
     
     <div className = {classes.FilemenuContainer}>
-        <Link to = "/Home">
+        <Link to = "/Home"
+            style={{textDecoration : "none"}}>
             <FileMenuItem 
             item = 'Home.html' 
             address = {Home}
@@ -19,7 +20,8 @@ const filemenu = (props) => (
             active = {props.showState[0]}/>
         </Link>
 
-        <Link to = "/About">
+        <Link to = "/About"
+            style={{textDecoration : "none"}}>
             <FileMenuItem 
                 item = 'About.jsx' 
                 address = {About}
@@ -27,7 +29,8 @@ const filemenu = (props) => (
                 active = {props.showState[1]}/>
         </Link>
 
-        <Link to = "/Project">
+        <Link to = "/Project"
+            style={{textDecoration : "none"}}>
             <FileMenuItem 
                 item = 'Project.css' 
                 address = {Project}
@@ -35,7 +38,8 @@ const filemenu = (props) => (
                 active = {props.showState[2]}/>
         </Link>
 
-        <Link to = "/Contact">
+        <Link to = "/Contact"
+            style={{textDecoration : "none"}}>
             <FileMenuItem 
                 item = 'Contact.js' 
                 address = {Contact}

@@ -7,7 +7,6 @@ import NarrowMenu from './component/SideMenu/NarrowMenu/NarrowMenu'
 import BroadMenu from './component/SideMenu/BroadMenu/BroadMenu'
 import FileMenu from './component/Filemenu/Filemenu'
 import Footer from './component/Footer/Footer'
-import MainBody from './component/Body/MainBody'
 
 import Home from './component/Body/Home/Home'
 import Contact from './component/Body/Contact/Contact'
